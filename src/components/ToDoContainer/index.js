@@ -1,9 +1,12 @@
 import React, { Component } from "react";
+import ToDos from "./components/ToDos";
 
 class ToDoContainer extends Component {
   render() {
     return (
-      <div>Welcome to the onboarding project. Add your todo list here!</div>
+      <div>
+        <ToDos/>
+      </div>
     );
   }
 }
